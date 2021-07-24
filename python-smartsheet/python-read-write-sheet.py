@@ -66,7 +66,10 @@ for column in sheet.columns:
     column_map[column.title] = column.id
 
 # Accumulate rows needing update here
-rowsToUpdate = []
+rowsToUpdate = [
+
+    
+]
 
 for row in sheet.rows:
     rowToUpdate = evaluate_row_and_build_updates(row)
